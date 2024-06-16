@@ -291,8 +291,6 @@ header *{
 /* start daytime section  */
 
 #daytime{
-    padding-bottom: 2rem;
-    padding-top: 0.5rem;
     background: orange;
     color: white;
     /* margin-top: 200px; */
@@ -303,6 +301,7 @@ header *{
 }
 
 #daytime .daytime-items{
+    padding: 0.7rem 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
